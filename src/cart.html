@@ -39,6 +39,87 @@
     </div>
 </header>
 <main class="main">
+<section class="cart">
+    <div class="container cart__container">
+        <section class="cart-goods">
+            <h2 class="cart-goods__title">Корзина</h2>
+            <ul class="cart-goods__list">
+                <li class="cart-goods__item item">
+                    <img src="img/monitor.jpg" alt="" class="cart__img">
+
+                    <div class="item__detail">
+                        <h4 class="item__title">Монитор AOC 24G2U/BK</h4>
+                        <p class="item__vendor-code">Артикул: 654651968</p>
+                    </div>
+
+                    <div class="item__control">
+                        <div class="item__count">
+                            <button class="item__btn item__btn_dec">–</button>
+                            <output class="item__number">1</output>
+                            <button class="item__btn item__btn_inc">+</button>
+                        </div>
+                        <p class="item__price">20799 ₽ </p>
+                        <button class="item__remove-cart">
+                            <svg>
+                                <use href="#remove"/>
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+                <li class="cart__item item">
+                    <img src="img/clock-vibe.jpg" alt="" class="cart__img">
+
+                    <div class="item__detail">
+                        <h4 class="item__title">Смарт-часы CANYON Lollypop</h4>
+                        <p class="item__vendor-code">Артикул: 654675757</p>
+                    </div>
+
+                    <div class="item__control">
+                        <div class="item__count">
+                            <button class="item__btn item__btn_dec">–</button>
+                            <output class="item__number">1</output>
+                            <button class="item__btn item__btn_inc">+</button>
+                        </div>
+                        <p class="item__price">12479 ₽ </p>
+                        <button class="item__remove-cart">
+                            <svg>
+                                <use href="#remove"/>
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+                <li class="cart__item item">
+                    <img src="img/dom.jpg" alt="" class="cart__img">
+
+                    <div class="item__detail">
+                        <h4 class="item__title">Смарт-приставка Selenga R1</h4>
+                        <p class="item__vendor-code">Артикул: 724651960</p>
+                    </div>
+
+                    <div class="item__control">
+                        <div class="item__count">
+                            <button class="item__btn item__btn_dec">–</button>
+                            <output class="item__number">1</output>
+                            <button class="item__btn item__btn_inc">+</button>
+                        </div>
+                        <p class="item__price">7944 ₽ </p>
+                        <button class="item__remove-cart">
+                            <svg>
+                                <use href="#remove"/>
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <section class="cart__address">
+            <h3 class="cart__title">Адрес доставки</h3>
+
+        </section>
+        <section class="cart__total"></section>
+    </div>
+</section>
 
 </main>
 <footer class="footer">
@@ -137,5 +218,20 @@
         </div>
     </div>
 </footer>
+<svg style="display: none" width="32" height="33">
+    <symbol id="remove" width="32" height="33" viewBox="0 0 32 33" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_16_883)">
+            <path d="M25.3337 9.04667L23.4537 7.16667L16.0003 14.62L8.54699 7.16667L6.66699 9.04667L14.1203 16.5L6.66699 23.9533L8.54699 25.8333L16.0003 18.38L23.4537 25.8333L25.3337 23.9533L17.8803 16.5L25.3337 9.04667Z" />
+        </g>
+        <defs>
+            <clipPath id="clip0_16_883">
+                <rect width="32" height="32" fill="currentColor" transform="translate(0 0.5)"/>
+            </clipPath>
+        </defs>
+    </symbol>
+</svg>
+
+
+
 </body>
 </html>
